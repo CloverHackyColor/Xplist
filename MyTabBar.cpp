@@ -39,7 +39,7 @@ void MyTabBar::mouseMoveEvent(QMouseEvent* event) {
       QMouseEvent* e = new QMouseEvent(QEvent::MouseButtonRelease, this->mapFromGlobal(QCursor::pos()), this->mapFromGlobal(QCursor::pos()),
           Qt::LeftButton, Qt::LeftButton, Qt::NoModifier, QPointingDevice::primaryPointingDevice());
 #else
-      QMouseEvent* e = new QMouseEvent(QEvent::MouseButtonRelease, QEvent::MouseButtonRelease, this->mapFromGlobal(QCursor::pos()),
+      QMouseEvent* e = new QMouseEvent(QEvent::MouseButtonRelease, this->mapFromGlobal(QCursor::pos()),
           Qt::LeftButton, Qt::LeftButton, Qt::NoModifier);
 #endif
 

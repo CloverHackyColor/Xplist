@@ -1,6 +1,7 @@
 #include <QLibraryInfo>
 #include <QTranslator>
 #include <QtWidgets/QApplication>
+#include <ctime>
 
 #include "mainwindow.h"
 #include "myapp.h"
